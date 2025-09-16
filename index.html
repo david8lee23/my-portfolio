@@ -5,12 +5,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>My Portfolio</title>
 <link rel="stylesheet" href="styles.css" />
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7ZJ35MNJ1E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7ZJ35MNJ1E');
+</script>
+
 </head>
 <body>
 <header class="site-header">
 <h1>Hello, I’m <span id="student-name">David Lee</span></h1>
 <p class="tagline">Aspiring developer learning data-driven design.</p>
-<button id="cta-btn" class="btn-primary">Contact Me</button>
+
+<a
+href="mailto:David8lee23@gmail.com?subject=Portfolio%20Inquiry&body=
+Hello%20—%20I%20found%20your%20portfolio%20and%20would%20like
+%20to%20connect."
+id="cta-btn"
+class="btn-primary"
+>
+Contact Me
+</a>
 </header>
 <main>
 <section id="projects" class="section">
